@@ -3,104 +3,107 @@
    <head>
          <title>Д_З_Calculator HTML</title>
          <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		 <link rel="stylesheet" href="style.css" type="text/css"/>
    </head>
 	<body>
-			<header>
-		  <img src="webLogo.png" alt="" width="180" height="90" />
+		<header class="board">
+		  <img class="logo" src="webLogo.png" alt="" width="180" height="90" />
 			<h1>Основы Web-технологий</h1>
 			<nav>
 			    <ul>
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="webtech.html">Web-технологий</a>
+					<li class="main"><a href="index.html">Главная</a></li>
+					<li class="main"><a href="webtech.html" class="sub">Web-технологий</a>
 					    <ul>
 							<li><a href="html5.html">HTML5</a></li>
 						    <li><a href="css3.html">CSS3</a></li>
 							<li><a href="java.html">JavaScript</a></li>
 					    </ul>
 					</li>
-					<li><a href="calc.html">Калькулятор</a></li>
-					<li><a href="test.html">Тест</a></li>
+					<li class="main"><a href="calc.html">Калькулятор</a></li>
+					<li class="main"><a href="test.html">Тест</a></li>
 				</ul>
 			</nav>
 		</header>
+	<div class="board">
+	<table class="calk" border="1">
 	<form>
-		<table border="1">
-			<col  span= "5" style="width: 30px;" />
+		<col  span= "5" style="width: 30px;" />
 			<tr>
 				<td colspan="5">
-					<input type="text" />
+					<input class="inp" type="text" />
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="7" />
+					<input type="button" name="button" onclick="callFunction()" value="7" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="8" />
+					<input type="button" name="button" onclick="callFunction()" value="8" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="9" />
+					<input type="button" name="button" onclick="callFunction()" value="9" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="/" />
+					<input type="button" name="button" onclick="callFunction()" value="/" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="C" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="button" name="button" onclick="callFunction()" value="4" />
-				</td>
-				<td>
-					<input type="button" name="button" onclick="callFunction()" value="5" />
-				</td>
-				<td>
-					<input type="button" name="button" onclick="callFunction()" value="6" />
-				</td>
-				<td>
-					<input type="button" name="button" onclick="callFunction()" value="&#215;" />
-				</td>
-				<td>
-					<input type="button" name="button" onclick="callFunction()" value="&#177;" />
+					<input type="button" name="button" onclick="callFunction()" value="C" class="btntp1"/>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="1" />
+					<input type="button" name="button" onclick="callFunction()" value="4" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="2" />
+					<input type="button" name="button" onclick="callFunction()" value="5" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="3" />
+					<input type="button" name="button" onclick="callFunction()" value="6" class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="-" />
+					<input type="button" name="button" onclick="callFunction()" value="&#215;" class="btntp1"/>
+				</td>
+				<td>
+					<input type="button" name="button" onclick="callFunction()" value="&#177;" class="btntp1"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" name="button" onclick="callFunction()" value="1" class="btntp1"/>
+				</td>
+				<td>
+					<input type="button" name="button" onclick="callFunction()" value="2" class="btntp1"/>
+				</td>
+				<td>
+					<input type="button" name="button" onclick="callFunction()" value="3" class="btntp1"/>
+				</td>
+				<td>
+					<input type="button" name="button" onclick="callFunction()" value="-" class="btntp1"/>
 				</td>
 				<td rowspan="2">
-					<input type="button" name="button" onclick="callFunction()" value="=" />
+					<input type="button" name="button" onclick="callFunction()" value="=" class="btntp2"/>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<input type="button" name="button" onclick="callFunction()" value="0" />
+					<input type="button" name="button" onclick="callFunction()" value="0" class="btntp3"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="." />
+					<input type="button" name="button" onclick="callFunction()" value="." class="btntp1"/>
 				</td>
 				<td>
-					<input type="button" name="button" onclick="callFunction()" value="+" />
+					<input type="button" name="button" onclick="callFunction()" value="+" class="btntp1"/>
 				</td>
 			</tr>
-		
-		</table>
-	</form>	
-		<footer>
-			<address>
-			<a href="mailto:lenina1124@gmail.com">Пишите: lenina1124@gmail.com</a>
+	</form>		
+	</table>
+	</div>
+		<footer class="board">
+		    <span class="flor"><address>
+			   <a href="mailto:lenina1124@gmail.com">Пишите: lenina1124@gmail.com</a>
             </address>
 			<p>&#169; Хмеленко Алексей, 2015</p>
+			</span>
 		</footer>
 	</body>
 </html>

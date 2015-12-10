@@ -3,54 +3,58 @@
    <head>
          <title>Д_З_Web-технологии HTML</title>
          <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		 <link rel="stylesheet" href="style.css" type="text/css"/>
    </head>
    <body>
-			<header>
-		  <img src="webLogo.png" alt="" width="180" height="90" />
+		<header class="board">
+		  <img class="logo" src="webLogo.png" alt="" width="180" height="90" />
 			<h1>Основы Web-технологий</h1>
 			<nav>
 			    <ul>
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="webtech.html">Web-технологий</a>
+					<li class="main"><a href="index.html">Главная</a></li>
+					<li class="main"><a href="webtech.html" class="sub">Web-технологий</a>
 					    <ul>
 							<li><a href="html5.html">HTML5</a></li>
 						    <li><a href="css3.html">CSS3</a></li>
 							<li><a href="java.html">JavaScript</a></li>
 					    </ul>
 					</li>
-					<li><a href="calc.html">Калькулятор</a></li>
-					<li><a href="test.html">Тест</a></li>
+					<li class="main"><a href="calc.html">Калькулятор</a></li>
+					<li class="main"><a href="test.html">Тест</a></li>
 				</ul>
 			</nav>
 		</header>
+		<div class="board">
 				<p>Web-технологии можно условно разделить на две пересекающиеся группы: <em>клиентские</em> и <em>серверные</em></p>
 			<ul>
-					<li><p>Клиентские:</p>
+					<li class="wt"><p>Клиентские:</p>
 						<dl>
 							<dt><strong>HTML</strong></dt>
-								<dd>стандартный язык разметки Web-страниц</dd>
+								<dd class="wt">стандартный язык разметки Web-страниц</dd>
 							<dt><strong>CSS</strong></dt>
-								<dd>средство описания и оформления внешнего вида Web-страниц</dd>
+								<dd class="wt">средство описания и оформления внешнего вида Web-страниц</dd>
 							<dt><strong>JavaScript</strong></dt>
-								<dd>применяется в браузерах как язык сценариев для придания интерактивности Web-страницам</dd>
+								<dd class="wt">применяется в браузерах как язык сценариев для придания интерактивности Web-страницам</dd>
 						</dl>   
 					</li>
-					<li><p>Серверные:</p>
+					<li class="wt"><p>Серверные:</p>
 						<dl>
 							<dt><strong>ASP.NET (C#)</strong></dt>
-								<dd>технология создания Web-приложений от компании Microsoft</dd>
+								<dd class="wt">технология создания Web-приложений от компании Microsoft</dd>
 							<dt><strong>JSP (Java)</strong></dt>
-								<dd>технология создания Web-приложений от компании Oracle</dd>
+								<dd class="wt">технология создания Web-приложений от компании Oracle</dd>
 							<dt><strong>PHP</strong></dt>
-								<dd>язык программирования, интенсивно применяемый для разработки Web-приложений</dd>
+								<dd class="wt">язык программирования, интенсивно применяемый для разработки Web-приложений</dd>
 						</dl>  
 					</li>
-			</ul>			
-		<footer>
-			<address>
-			<a href="mailto:lenina1124@gmail.com">Пишите: lenina1124@gmail.com</a>
+			</ul>
+		</div>		
+		<footer class="board">
+		    <span class="flor"><address>
+			   <a href="mailto:lenina1124@gmail.com">Пишите: lenina1124@gmail.com</a>
             </address>
 			<p>&#169; Хмеленко Алексей, 2015</p>
+			</span>
 		</footer>
 </body>
 
