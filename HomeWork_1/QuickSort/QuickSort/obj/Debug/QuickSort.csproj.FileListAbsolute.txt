@@ -1,0 +1,6 @@
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\bin\Debug\QuickSort.exe.config
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\bin\Debug\QuickSort.exe
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\bin\Debug\QuickSort.pdb
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\obj\Debug\QuickSort.csprojResolveAssemblyReference.cache
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\obj\Debug\QuickSort.exe
+D:\aleksey\KhmelenkoOV\Khmelenko_Aleksey\C#\HomeWork_1\QuickSort\QuickSort\obj\Debug\QuickSort.pdb
